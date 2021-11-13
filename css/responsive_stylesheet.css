@@ -1,0 +1,61 @@
+@media screen and (max-width:388px){
+
+    .nav-menu{
+        color: black !important;
+        float: left;
+        line-height: 25px;
+        margin-right: 10px;
+}
+
+
+
+
+
+
+nav ul{
+    display: none;
+}
+
+@font-face {
+    font-family: Verdana;
+    src: url(/assets/font/Roboto-Black.ttf);
+}
+
+.col-2{
+    grid-template-columns: 100%;
+}
+
+.col-3{
+    grid-template-columns: 100%;
+}
+
+.col-3 div{
+    margin-bottom: 5%;
+}
+
+.about-me-div-text p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 4% 0 4%;
+}
+
+.section-heading{
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.definition-list-container dl dt{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.col-left{
+text-align: center;
+margin: auto;
+}
+
+.col-right{
+    text-align: center;
+    margin-top: 30px;
+}
+}

@@ -1,0 +1,45 @@
+.ul-inline{
+    display: inline;
+    float: none;
+}
+
+.responsive-ul-li{
+    display: block;
+    text-align: center;
+}
+
+
+.display-none{
+    display: none;
+
+}
+
+.close-menu-icon{
+    color:black !important;
+    display: inline;
+}
+
+.close-nav-menu{
+    float: right;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.introduction{
+    width: 100%;
+    height: calc(100vh - 32px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image:url(/assets/images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.intro-text{
+    font-family: fantasy;
+    color: dae;
+}

@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(14, 14, 143);
+    line-height: 30px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    font-family: Tahoma, monospace;
+}
+
+nav ul{
+    float: right;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    font-weight: 30px;
+}
+
+.nav-hover-effect a:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.col-2{
+    grid-template-columns: 50% 50%;
+}
+
+.col-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.intro-btn{
+    margin-top: 10%;
+}
+
+.col-left{
+    text-align: right;
+    margin-right: 20%;
+}
+
+.col-right{
+    text-align: left;
+}
+
+.col-left a,
+.col-right a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+} 
+
+.grid div a:hover{
+    color: thistle;
+    background-color: whitesmoke;
+}
+
+
+.section-heading{
+    text-align: center;
+    margin-top: 5%;
+    font-variant: small-caps;
+    background-size: contain;
+    color: black;
+}
+
+.about-me-div-text{
+    margin: auto;
+}
+
+about-me-div-text p{
+    font-size: 20px;
+}
+
+.text-color-white{
+    color: whitesmoke;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.qualification h1{
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+.col-3 div h1{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+
+.col-3 div p{
+    padding: 0 10px 0 10px;
+    text-align: justify;
+    color: whitesmoke;
+
+}
+
+.col-3 div{
+    border: 1px solid skyblue;
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+    padding: 15px 0 15px 0;
+}
+
+
+div.card-background-img > div{
+    margin: 15px 0 15px 0;
+}
+
+div.card-background-img > p{
+    font-size: 17px;
+    padding: 0 10px 0 10px;
+}
+
+div.text-center > a{
+    font-size: 10px;
+}
+
+.card-background-img{
+    background-color: black;
+    background-image: url(/assets/images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+section h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.borders-on-links{
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px;
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.card-margin{
+    margin: 10px;
+}
+
+.resume{
+    font-size: 22px;
+    color: black;
+}
+
+.my-work-experience-h1{
+    text-indent: 10px;
+}
+
+.my-work-experience-p{
+    padding: 20px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: rgb(85, 85, 85);
+    border-radius: 25px;
+    margin: 0 20px 20px 20px;
+}
+footer div{ 
+    text-align: center;
+    padding: 15px 0 15px 0;
+
+}
+
+footer div p{
+    padding: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div i{
+    color: white;
+    font-size: 25px;
+    padding: 15px 5px 5px 0;
+}
+
+footer div h5{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.about-me-img{
+    width:50%; 
+    margin:auto;
+     display: block;
+}
+
+.definition-list-container{
+    margin: 0 10% 0 10%;
+}
+
+.definition-list-container dl dt{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.definition{
+    text-indent: 20px;
+}
+.align-button{
+    height: 10px;
+    width: 10px;
+}
